@@ -8,3 +8,18 @@ const setCard = () => {
 }
 
 document.querySelector('#editBtn').addEventListener('click', setCard)
+
+const addEle = (cardId) => {
+    const p = document.createElement('p')
+    p.innerText = "I'm Here!"
+    p.className = `${cardId}`
+    document.body.appendChild(p)
+}
+
+document.querySelector('#diamonds').addEventListener('click', () => addEle('diamonds'))
+
+document.querySelector('#clubs').addEventListener('click', () => addEle('clubs'))
+
+document.querySelector('#hearts').addEventListener('click', () => addEle('hearts'))
+
+document.querySelector('#spades').addEventListener('click', () => addEle('spades'))

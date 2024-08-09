@@ -53,3 +53,30 @@ section span:nth-of-type(3) {
   width: 100px;
   border: 1px solid #000;
 }
+
+.diamonds,
+.clubs,
+.hearts,
+.spades {
+  font-size: 25px;
+  width: 125px;
+}
+
+.diamonds {
+  color: #AA0000;
+  border: 1px solid;
+}
+
+.clubs {
+  color: black;
+  border: 3px dotted;
+}
+
+.hearts {
+  color: #D2122E;
+  border: 5px solid rgba(255, 0, 0, 0.5);
+}
+
+.spades {
+  color: darkgrey;
+}
